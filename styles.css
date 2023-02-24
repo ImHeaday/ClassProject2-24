@@ -1,0 +1,111 @@
+body {
+    display: flex;
+}
+
+.flex-holidays img {
+    transform: rotate(-20deg);
+}
+
+.flex-holidays p {
+    transform: rotate(-110deg);
+    margin-right: -85px;
+}
+
+.flex-holidays {
+    display: flex;
+}
+
+.flex-sports img {
+    transform: rotate(20deg);
+}
+
+.flex-sports p {
+    transform: rotate(110deg);
+    margin-left: -85px;
+}
+
+.flex-sports {
+    display: flex;
+}
+
+.flex-animals img {
+    transform: rotate(-20deg);
+}
+
+.flex-animals p {
+    transform: rotate(-110deg);
+    margin-right: -85px;
+}
+
+.flex-animals {
+    display: flex;
+}
+
+.flex-heroes img {
+    transform: rotate(20deg);
+}
+
+.flex-heroes p {
+    transform: rotate(110deg);
+    margin-left: -85px;
+}
+
+.flex-heroes {
+    display: flex;
+}
+
+.flex-trans img {
+    transform: rotate(20deg);
+}
+
+.flex-trans p {
+    transform: rotate(110deg);
+    margin-left: -120px;
+}
+
+.flex-trans {
+    display: flex;
+}
+
+.flex-seasons img {
+    transform: rotate(-20deg);
+}
+
+.flex-seasons p {
+    transform: rotate(-110deg);
+    margin-right: -85px;
+}
+
+.flex-seasons {
+    display: flex;
+}
+
+.flex-religion img {
+    transform: rotate(20deg);
+}
+
+.flex-religion p {
+    transform: rotate(110deg);
+    margin-left: -105px;
+}
+
+.flex-religion {
+    display: flex;
+}
+
+.flex-space img {
+    transform: rotate(-20deg);
+}
+
+.flex-space p {
+    transform: rotate(-110deg);
+    margin-right: -85px;
+}
+
+.flex-space {
+    display: flex;
+}
+
+.flex-logo {
+    border: 4px solid black;
+}
