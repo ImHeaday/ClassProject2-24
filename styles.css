@@ -1,5 +1,21 @@
 body {
+    /* display: flex; */
+    background-color: blanchedalmond;
+}
+
+main {
     display: flex;
+}
+
+.flex-holidays,
+.flex-animals,
+.flex-heroes,
+.flex-religion,
+.flex-seasons,
+.flex-space,
+.flex-sports,
+.flex-trans {
+    margin: 75px 45px;
 }
 
 .flex-holidays img {
@@ -8,7 +24,7 @@ body {
 
 .flex-holidays p {
     transform: rotate(-110deg);
-    margin-right: -85px;
+    margin-right: -75px;
 }
 
 .flex-holidays {
@@ -21,7 +37,7 @@ body {
 
 .flex-sports p {
     transform: rotate(110deg);
-    margin-left: -85px;
+    margin-left: -65px;
 }
 
 .flex-sports {
@@ -34,7 +50,7 @@ body {
 
 .flex-animals p {
     transform: rotate(-110deg);
-    margin-right: -85px;
+    margin-right: -70px;
 }
 
 .flex-animals {
@@ -47,7 +63,7 @@ body {
 
 .flex-heroes p {
     transform: rotate(110deg);
-    margin-left: -85px;
+    margin-left: -65px;
 }
 
 .flex-heroes {
@@ -60,11 +76,13 @@ body {
 
 .flex-trans p {
     transform: rotate(110deg);
-    margin-left: -120px;
+    /* margin-left: -100px; */
 }
 
 .flex-trans {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-seasons img {
@@ -73,7 +91,7 @@ body {
 
 .flex-seasons p {
     transform: rotate(-110deg);
-    margin-right: -85px;
+    margin-right: -65px;
 }
 
 .flex-seasons {
@@ -86,7 +104,7 @@ body {
 
 .flex-religion p {
     transform: rotate(110deg);
-    margin-left: -105px;
+    margin-left: -75px;
 }
 
 .flex-religion {
@@ -108,4 +126,20 @@ body {
 
 .flex-logo {
     border: 4px solid black;
+    margin-top: 110px;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+footer a {
+    font-size: xx-large;
+    text-decoration: green wavy underline;
+    color: blue;
+}
+
+footer a:hover {
+    color: orange;
 }
